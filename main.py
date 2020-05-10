@@ -1,14 +1,15 @@
-
-n1 = int(input("Enter number 1: "))
-n2 = int(input("Enter number 2: "))
-
-if n1 > 0 and n2 > 0:
-    div = n1 / n2
-    mult = n1 * n2
-    sum = n1 + n2
-    sub = n1 - n2
-
-    print (f'Division: {div}, multiplication: {mult}, sum: {sum}, substraction: {sub}')
-
+print ('введите число А')
+A = int(input())
+print ('введите число B')
+B = int(input())
+Mult = A * B
+Devis = A / B
+Summ = A + B
+Sub = A - B
+while  A * B <=0:
+    if A * B <0:
+        print ('Значение должны быть больше 0')
+        break
 else:
-    print ("Both numbers should be positive")
+    print (f'Умножение: {Mult}')
+    print (f'Деление: {Devis}')
