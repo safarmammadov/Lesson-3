@@ -1,4 +1,4 @@
-print ('Привет')
+print ('Привет 2')
 while True:
         print ('введите число А')
         A = int(input())
