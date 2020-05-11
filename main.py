@@ -13,6 +13,13 @@ while True:
         else:
                 print(f'Умножение: {Mult}')
                 print(f'Деление: {Devis}')
+                print(f'сумма: {Summ}')
+                print(f'разница: {Sub}')
                 break
 else:
         print('Значение должны быть больше 0')
+
+
+
+
+
